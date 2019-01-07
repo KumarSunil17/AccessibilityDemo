@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:contentDescription="Color Accent"
+        android:src="@color/colorAccent"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:contentDescription="List of items"
+        android:id="@+id/container_list"
+        android:layout_height="match_parent"
+        android:padding="10sp"/>
+</LinearLayout>
